@@ -2,11 +2,245 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./public/img/images.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gpay UI</title>
     <link rel="stylesheet" href="./assets/css/main.css">
   </head>
-  <body>
+  <body class="bg-gray-600 max-w-lg mx-auto">
+     <div class="bg-zinc-900">
+      <!-- Top Header -->
+      <div class="flex px-5 py-3 items-center space-x-4">
+        <div class="relative flex-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-gray-300 fill-current absolute top-2 left-3"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14"/></svg>
+          <input type="text" placeholder="Pay friends and merchants" class="w-full pl-11 pr-4 px-4 py-2 text-gray-500 bg-zinc-800 outline-none rounded-full">
+        </div>
+        <img src="./public/img/20240217053429_IMG_9331-01.jpeg" alt="prasanth" class="w-8 h-8 object-cover rounded-full">
+      </div>
+      <!-- Banner -->
+        <img src="./public/img/gpaybanner.jpeg" alt="gpaybanner">
+      <!-- Icones -->
+      <section class="py-5 px-10 grid grid-cols-4 gap-10 text-sm text-center">
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300 fill-current"><path fill="currentColor" d="M2 7V2h5v2H4v3zm0 15v-5h2v3h3v2zm15 0v-2h3v-3h2v5zm3-15V4h-3V2h5v5zm-2.5 10.5H19V19h-1.5zm0-3H19V16h-1.5zM16 16h1.5v1.5H16zm-1.5 1.5H16V19h-1.5zM13 16h1.5v1.5H13zm3-3h1.5v1.5H16zm-1.5 1.5H16V16h-1.5zM13 13h1.5v1.5H13zm6-8v6h-6V5zm-8 8v6H5v-6zm0-8v6H5V5zM9.5 17.5v-3h-3v3zm0-8v-3h-3v3zm8 0v-3h-3v3z"/></svg>
+        <span class="text-gray-400 mt-2">Scan any <br> QR code</span>
+        
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M12 13q1.25 0 2.125-.875T15 10t-.875-2.125T12 7t-2.125.875T9 10t.875 2.125T12 13m-8 7q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm1.75-2h12.5q-1.125-1.4-2.725-2.2T12 15t-3.525.8T5.75 18M5 23q-.425 0-.712-.288T4 22t.288-.712T5 21h14q.425 0 .713.288T20 22t-.288.713T19 23zM5 3q-.425 0-.712-.288T4 2t.288-.712T5 1h14q.425 0 .713.288T20 2t-.288.713T19 3z"/></svg>
+        <span class="text-gray-400 mt-2">Pay <br> contacts</span>
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M7 23q-.825 0-1.412-.587T5 21v-5q0-.425.288-.712T6 15t.713.288T7 16v2h10V6H7v2q0 .425-.288.713T6 9t-.712-.288T5 8V3q0-.825.588-1.412T7 1h10q.825 0 1.413.588T19 3v18q0 .825-.587 1.413T17 23zm0-3v1h10v-1zm3.15-7H3q-.425 0-.712-.288T2 12t.288-.712T3 11h7.15l-.875-.9Q9 9.825 9 9.413t.3-.713q.275-.275.7-.275t.7.275l2.6 2.6q.3.3.3.7t-.3.7l-2.6 2.6q-.275.275-.687.288T9.3 15.3q-.275-.275-.288-.687t.263-.713zM7 4h10V3H7zm0 0V3zm0 16v1z"/></svg>
+        <span class="text-gray-400 mt-2 ">Pay phone <br> number</span>
+        
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M6.5 10h-2v7h2zm6 0h-2v7h2zm8.5 9H2v2h19zm-2.5-9h-2v7h2zm-7-6.74L16.71 6H6.29zm0-2.26L2 6v2h19V6z"/></svg>
+        <span class="text-gray-400 mt-2">Bank <br> transfer</span>
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M11.75 15q.325 0 .538-.213t.212-.537V13H15q.425 0 .713-.288T16 12v-2q0-.425-.288-.712T15 9h-3q-.425 0-.712.288T11 10v4.25q0 .325.213.538t.537.212m6 0q.325 0 .538-.213t.212-.537v-4.5q0-.325-.213-.537T17.75 9t-.537.213T17 9.75v4.5q0 .325.213.538t.537.212m-5.25-3.5v-1h2v1zM6 15h3q.425 0 .713-.288T10 14V9.75q0-.325-.213-.537T9.25 9t-.537.213t-.213.537v3.75h-2V9.75q0-.325-.213-.537T5.75 9t-.537.213T5 9.75V14q0 .425.288.713T6 15m-2 5q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm0-2h16V6H4zm0 0V6z"/></svg>
+        <span class="text-gray-400 mt-2 ">Pay UPI ID</span>
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M11.5 2a5.5 5.5 0 1 0 0 11a5.5 5.5 0 0 0 0-11m7.078 11.096l3.674 2.881v1.525H13.75v-2h4.655l-1.061-.832zm-4.826 5.402h8.502v2H17.6l1.061.832l-1.234 1.574l-3.674-2.88zM12.876 14a6.47 6.47 0 0 0-1.376 4c0 1.509.514 2.897 1.376 4H2v-2a6 6 0 0 1 6-6z"/></svg>
+        <span class="text-gray-400 mt-2">Self <br> transfer</span>
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M6 22q-1.25 0-2.125-.875T3 19v-1q0-.825.588-1.412T5 16h1V4q0-.825.588-1.412T8 2h11q.825 0 1.413.588T21 4v15q0 1.25-.875 2.125T18 22zm12-2q.425 0 .713-.288T19 19V4H8v12h7q.825 0 1.413.588T17 18v1q0 .425.288.713T18 20M10 9q-.425 0-.712-.288T9 8t.288-.712T10 7h7q.425 0 .713.288T18 8t-.288.713T17 9zm0 3q-.425 0-.712-.288T9 11t.288-.712T10 10h7q.425 0 .713.288T18 11t-.288.713T17 12z"/></svg>
+        <span class="text-gray-400 mt-2">Pay <br> bills</span>
+       </div>
+       <div class="flex flex-col justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-blue-300"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 21H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v7m1 4l-2 3h4l-2 3M11 4h2m-1 13v.01"/></svg>
+        <span class="text-gray-400 mt-2">Mobile <br> recharge</span>
+       </div>
+
+
+
+      </section>
+      <!-- Quick balance -->
+       <section class="text-sm flex items-center justify-center py-5 space-x-4">
+        <div class="px-4 py-1.5 rounded-full bg-zinc-800 text-zinc-400"> UPI ID : prasanthm1492-1@okhdfcbank</div>
+       </section>
+       <!-- People -->
+        <section class="py-5 px-10 text-sm">
+          <h2 class="text-xl text-zinc-200 pb-4">People</h2>
+          <div class="text-zinc-300 text-sm grid grid-cols-4 gap-5">
+            <div class="flex items-center justify-center flex-col">
+              <img src="./public/img/ibram.jpeg" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>ibram</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="https://ui-avatars.com/api/?name=Prasanth+Manokar&background=random" alt="prasanth" class="rounded-full w-12 mb-1">
+              <span>Prasa..</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="https://ui-avatars.com/api/?name=Elango&background=random" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Elango</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="https://ui-avatars.com/api/?name=Raj&background=random" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Raj</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="https://ui-avatars.com/api/?name=Ponnar&background=random" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Ponnar</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="./public/img/nivetha.jpeg" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>nivetha</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="https://ui-avatars.com/api/?name=ARAVINDH&background=random" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Aravindh</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <div class="p-2 border rounded-full border-zinc-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512" class="text-blue-300"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 184l144 144l144-144"/></svg>
+
+              </div>
+              <span>More</span>
+            </div>
+          </div>
+          
+        </section>
+
+        <!-- Businesses -->
+        <section class="py-5 px-10">
+          <div class="flex items-center relative ">
+            <h2 class="text-xl text-zinc-200 pb-4">Businesses</h2>
+            <span class="text-blue-300 text-sm absolute right-0 top-1 flex">More <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m184 112l144 144l-144 144"/></svg></span>
+          </div>
+          <div class="text-zinc-300 text-xs grid grid-cols-4 gap-5">
+            <div class="flex items-center justify-center flex-col">
+              <img src="./public/img/vi.webp" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span >Vi Prepaid</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="./public/img/airtel.jpg" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Airtel P..</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <img src="./public/img/jio.webp" alt="ibram" class="rounded-full w-12 h-12 mb-1">
+              <span>Jio Prepaid</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <div class="p-2 border rounded-full border-zinc-600">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512" class="text-blue-300"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 184l144 144l144-144"/></svg>
+
+              </div>
+              <span>More</span>
+            </div>
+          </div>
+          
+        </section>
+        <!-- Bill recharge and more -->
+        <section class="py-5 px-10">
+          <div class="flex items-center relative ">
+            <h2 class="text-xl text-zinc-200 pb-4">Bills & recharges</h2>
+          </div>
+          <div class="text-zinc-300 ">
+            <div class="flex items-center justify-between space-x-5 ">
+              <img src="./public/img/vi.webp" alt="" class="rounded-full w-8 h-8mb-1">
+              <div class="flex flex-col">
+                <span class="text-sm font-medium">PRASANTH M</span>
+                <span class="text-red-700 text-xs">Validity expiring tomorrow</span>
+              </div>
+              <div>
+                <span class="text-blue-500 border border-zinc-600 rounded-full px-5 py-1">Pay</span>
+              </div>
+            </div>
+
+          </div>
+          
+        </section>
+        <!-- Try adding thesse -->
+        <section class="py-5 px-10">
+          <div class="flex ">
+            <h2 class=" text-zinc-200 pb-4">Try adding these</h2>
+          </div>
+          <div class="text-zinc-300 text-xs grid grid-cols-4 gap-4">
+            <div class="border rounded-full border-blue-950 bg-blue-950 w-10 h-10 text-center relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-white absolute bottom-1 top-1 left-2 right-1"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 21H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v7m1 4l-2 3h4l-2 3M11 4h2m-1 13v.01"/></svg>
+              <span class="absolute top-10 right-7 left-1 mt-1">Mobile recharge</span>
+            </div>
+            <div class="border rounded-full border-blue-950 bg-blue-950 w-10 h-10 text-center relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-white absolute bottom-1 top-1 left-2 right-1"><path fill="currentColor" fill-rule="evenodd" d="M.991 3H23.01q-.04 8 0 16H.99q.04-8 0-16m2 14h18.02a603 603 0 0 1 0-12H2.99q.06 6 0 12M18 21H6v2h12z" clip-rule="evenodd"/></svg>
+              <span class="absolute top-10 right-7 left-1 mt-1">DTH/Cable<br>TV</span>
+
+            </div>
+            <div class="border rounded-full border-blue-950 bg-blue-950 w-10 h-10 text-center relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" class="text-white absolute bottom-1 top-1 left-2 right-1"><g fill="currentColor"><path fill-rule="evenodd" d="M13.07 26.285c.962 1.176 3.41 5.533 3.93 7.715h14c.52-2.18 2.965-6.537 3.927-7.712a13.57 13.57 0 0 0 2.982-7.015a13.47 13.47 0 0 0-1.289-7.495a13.8 13.8 0 0 0-5.164-5.671A14.2 14.2 0 0 0 24.002 4c-2.637 0-5.221.73-7.454 2.105a13.8 13.8 0 0 0-5.166 5.67a13.47 13.47 0 0 0-1.292 7.493c.299 2.567 1.332 5 2.98 7.017M25 12l-6 9h4v6l6-9h-4z" clip-rule="evenodd"/><path d="M17 37a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H18a1 1 0 0 1-1-1m14 3H17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2z"/></g></svg>
+              <span class="absolute top-10 right-7 left-1 mt-1">Electricity</span>
+
+            </div>
+            <div class="border rounded-full border-blue-950 bg-blue-950 w-10 h-10 text-center relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="text-white absolute bottom-1 top-1 left-2 right-1"><path fill="currentColor" d="M.75 7.5h9.75l.75 1.5H1.5zm1 3h9.75l.75 1.5H2.5zm16.25 8c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5s.67 1.5 1.5 1.5m1.5-9H17V12h4.46zM8 18.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5s.67 1.5 1.5 1.5M20 8l3 4v5h-2c0 1.66-1.34 3-3 3s-3-1.34-3-3h-4c0 1.66-1.35 3-3 3c-1.66 0-3-1.34-3-3H3v-3.5h2V15h.76c.55-.61 1.35-1 2.24-1s1.69.39 2.24 1H15V6H3c0-1.11.89-2 2-2h12v4z"/></svg>
+              <span class="absolute top-10 right-7 left-1 mt-1">Fastag<br>recharge</span>
+
+            </div>
+          </div>
+          
+        </section>
+        <div class="flex items-center justify-center relative mt-10 mb-2">
+            <span class="text-blue-600 border border-zinc-600 rounded-full px-3 py-1 ">View all</span>
+        </div>
+        <!-- Promotions -->
+        <section class="py-2 px-10">
+          <div class="flex items-center relative ">
+            <h2 class="text-xl text-zinc-200 pb-4">Offers & rewards</h2>
+          </div>
+          <div class="text-zinc-300 text-xs grid grid-cols-4 gap-5">
+            <div class="flex items-center justify-center flex-col">
+              <div class="border border-yellow-900 rounded-full w-12 h-12 relative bg-yellow-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48" class="absolute top-2 left-2 text-yellow-900"><path fill="#FFC000" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11.28 9v3.82H4.5v3.74c0 6.26 1.86 9.75 6.33 11.92a21 21 0 0 1 4.56 3.31a11.1 11.1 0 0 0 3.92 2.69L21 35v4.53h-2.58c-3.12 0-4.17.71-4.17 2.82v1.42h19.5V42.5c0-2.07-1.28-3-4.24-3H27V35l1.72-.51a11 11 0 0 0 3.92-2.7a22.8 22.8 0 0 1 4.74-3.47a11.08 11.08 0 0 0 5.71-6.49a27.3 27.3 0 0 0 .44-5.29v-3.71h-6.81V9ZM24 15.37l2.05 4.24h4.94l-3.87 3.57l1.11 4.56L24 25.47l-4.23 2.3l1.11-4.56L17 19.64h4.95ZM8.06 16.64h3.16v7.88c-.33.2-1.36-1-2.11-2.37a11.8 11.8 0 0 1-.81-3.28Zm28.72 0h3.44l-.29 2.2a7.5 7.5 0 0 1-2.07 4.9a3.7 3.7 0 0 1-1.11 1Z"/></svg>
+              </div>
+              <span class="text-white mt-1">Rewards</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <div class="border border-red-500 rounded-full w-12 h-12 relative bg-red-500">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="absolute top-2 left-2 text-gray-100"><path fill="currentColor" d="M5.5 7A1.5 1.5 0 0 1 4 5.5A1.5 1.5 0 0 1 5.5 4A1.5 1.5 0 0 1 7 5.5A1.5 1.5 0 0 1 5.5 7m15.91 4.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.11 0-2 .89-2 2v7c0 .55.22 1.05.59 1.41l8.99 9c.37.36.87.59 1.42.59s1.05-.23 1.41-.59l7-7c.37-.36.59-.86.59-1.41c0-.56-.23-1.06-.59-1.42"/></svg>
+              </div>
+              <span class="text-white mt-1">Offers</span>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+              <div class="border border-blue-800 rounded-full w-12 h-12 relative bg-blue-800">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="absolute top-2 left-2 text-gray-100"><path fill="currentColor" d="M7 19h10V5H7zm5.8-8.28v-1.7L16 12l-3.2 2.99v-1.75c-2.22 0-3.69.68-4.8 2.18c.45-2.14 1.69-4.27 4.8-4.7" opacity=".3"/><path fill="currentColor" d="M17 1H7c-1.1 0-1.99.85-1.99 1.95v18C5.01 22.05 5.9 23 7 23h10c1.1 0 2-.95 2-2.05V3c0-1.1-.9-2-2-2m0 18H7V5h10zm-4.2-5.76v1.75L16 12l-3.2-2.98v1.7c-3.11.43-4.35 2.56-4.8 4.7c1.11-1.5 2.58-2.18 4.8-2.18"/></svg>
+              </div>
+              <span class="text-white mt-1">Referrals</span>
+            </div>
+          </div>
+          
+        </section>
+        <!-- Manage Your Money -->
+         <section class="px-5 py-4"> 
+          <div >
+            <h2 class="text-xl text-zinc-200 pb-2">Manage Your money</h2>
+          </div>
+
+           <div class="flex  items-center justify-between text-white space-x-7 mt-4 p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16" class="text-blue-300"><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M6 2.5H3.5v12h9v-12H10m-5 8h6m-4-1v2m-2-4h6m-2-1v2m-3-5l-.5-2h5l-.5 2z"/></svg>
+              <span class="text-sm">Get a Loan <br> <span class="text-xs">Instant approval & paperless </span></span>
+              <p class="text-blue-300 text-xs">Apply now</p>
+           </div>
+           <div class="flex  items-center justify-between text-white space-x-7 mt-4 p-1 relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M7.375 21.025q-.9-.025-1.713-.462t-1.537-1.288q-1-1.2-1.563-2.862T2 13q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 3q2.075 0 3.9.8t3.175 2.175q1.35 1.375 2.138 3.225T22 13.175q0 1.925-.625 3.6T19.6 19.6q-.7.7-1.475 1.063t-1.575.362q-.45 0-.9-.112t-.9-.338l-1.4-.7q-.3-.15-.638-.225T12 19.575q-.375 0-.713.075t-.637.225l-1.4.7q-.475.25-.938.363t-.937.087Zm.05-2q.225 0 .463-.05t.462-.175l1.4-.7q.525-.275 1.088-.4t1.137-.125q.575 0 1.15.125t1.1.4l1.425.7q.225.125.45.175t.45.05q.475 0 .9-.25t.85-.75q.8-.95 1.25-2.275t.45-2.725q0-3.35-2.325-5.687T12 5Q8.65 5 6.325 7.35T4 13.05q0 1.425.462 2.775T5.75 18.1q.425.5.825.713t.85.212ZM15.85 12h2.05q-.375-2.2-2.037-3.6T12 7Q9.8 7 8.125 8.413T6.1 12h2.05q.35-1.35 1.425-2.175T12 9q.425 0 .8.075t.725.225l-2.9 3.875l1.65 1.15l2.825-3.8q.25.325.438.688t.312.787ZM12 12Z"/></svg>
+            <span class="text-sm absolute right-1 left-10">Check your CIBIL score for free</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" class="text-zinc-400"><path fill="currentColor" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887t.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75t-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1t-.375-.888t.375-.887z"/></svg> 
+         </div>
+         <div class="flex  items-center justify-between text-white space-x-7  mt-4 p-1 relative">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M12 21q-3.45 0-6.012-2.287T3.05 13H5.1q.35 2.6 2.313 4.3T12 19q2.925 0 4.963-2.037T19 12t-2.037-4.962T12 5q-1.725 0-3.225.8T6.25 8H9v2H3V4h2v2.35q1.275-1.6 3.113-2.475T12 3q1.875 0 3.513.713t2.85 1.924t1.925 2.85T21 12t-.712 3.513t-1.925 2.85t-2.85 1.925T12 21m2.8-4.8L11 12.4V7h2v4.6l3.2 3.2z"/></svg>
+          <span class="text-sm absolute right-1 left-10">See transaction history</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" class="text-zinc-400"><path fill="currentColor" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887t.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75t-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1t-.375-.888t.375-.887z"/></svg> 
+         </div>
+         <div class="flex  items-center justify-between text-white space-x-7  mt-4 p-1 relative">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" class="text-blue-300"><path fill="currentColor" d="M6.5 10h-2v7h2zm6 0h-2v7h2zm8.5 9H2v2h19zm-2.5-9h-2v7h2zm-7-6.74L16.71 6H6.29zm0-2.26L2 6v2h19V6z"/></svg>
+          <span class="text-sm absolute right-1 left-10">Check bank balance</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" class="text-zinc-400"><path fill="currentColor" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887t.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75t-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1t-.375-.888t.375-.887z"/></svg> 
+         </div>
+         </section>
+
+     </div>
   </body>
 </html>
